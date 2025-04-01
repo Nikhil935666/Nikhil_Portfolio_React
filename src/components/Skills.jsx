@@ -1,6 +1,6 @@
 import React from 'react'
 import skills from './data/skills.json'
-import JsImage from '../../public/assets/skills/javascript.png'
+
 
 const Skills = () => {
   return (

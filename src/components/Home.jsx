@@ -36,7 +36,7 @@ const Home = () => {
              data-aos="fade-up-left"
           data-aos-duration="2000"
             >
-               <img src={`/assets/${hero.imgSrc}`} alt="hero" />
+               <img src={`${hero.imgSrc}`} alt="hero" />
            </div>
         </div>
       </div>
