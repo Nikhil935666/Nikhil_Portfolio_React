@@ -9,7 +9,7 @@ const Experience = () => {
         {
           experience.map((data,index)=>{
             return(
-              <>
+
               <div key={data.id} className="ex-items text-center my-5"
                data-aos="zoom-in"
                data-aos-duration="1000">
@@ -27,7 +27,7 @@ const Experience = () => {
                   
                 </div>
               </div>
-              </>
+
             )
           })
         }

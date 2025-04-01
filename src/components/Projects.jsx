@@ -7,8 +7,8 @@ const Projects = () => {
        <h1>PROJECTS</h1>
         <div className="row d-flex justify-content-center align-item-center">
           {project.map((data)=>(
-            <>
-              <div key={data.id} className="my-3 col-md-4 col-lg-3 col-sm-2 mx-3">
+
+              <div key={data.key} className="my-3 col-md-4 col-lg-3 col-sm-2 mx-3">
               <div className="card bg-dark text-light" 
               style={{
                 width:"18rem",
@@ -38,7 +38,7 @@ const Projects = () => {
                   </div>
 
               </div>
-            </>
+
           ))}
         </div>
      </div>

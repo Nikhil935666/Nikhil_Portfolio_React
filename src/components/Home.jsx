@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef } from 'react'
 import pdf from '../pdf/resume.pdf'
 import hero from './data/hero.json'
 import Typed from "typed.js";
@@ -7,7 +7,7 @@ const Home = () => {
   const typedRef=useRef(null)
   useEffect(() => {
     const options={
-      strings:["Welcome to my profile","My name is Nikhil Kadam","I'm Frontend Developer","web Developer(ReactJs)"],
+      strings:["Welcome to my profile","My Name is Nikhil Kadam","I'm Frontend Developer","Web Developer(ReactJs)"],
       typeSpeed:50,
       backSpeed:50,
       loop:true

@@ -9,17 +9,15 @@ const Skills = () => {
      <div className="items"
        >
         {skills.map((data)=>(
-            <>
             
                 <div className="item"
                 data-aos="flip-left"
                 data-aos-duration="1000"
-                key={data.id}>
+                key={data.title}>
                     <img src={`/assets/${data.imageSrc}`} alt="internet" />
                     <h3>{data.title}</h3>
                 </div>
             
-            </>
         ))}
           </div>
      </div> 

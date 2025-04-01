@@ -3,7 +3,8 @@ import React from 'react'
 const Navbar = () => {
   return (
     <>
-    <div className="container nav_bar"
+    <div className="container nav_bar fixed-top "
+    style={{backdropFilter:'blur(10px)'}}
     data-aos="fade-down"
     data-aos-duration="1000"
     >
