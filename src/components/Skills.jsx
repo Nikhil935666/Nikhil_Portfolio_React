@@ -1,5 +1,6 @@
 import React from 'react'
 import skills from './data/skills.json'
+import JsImage from '../../public/assets/skills/javascript.png'
 
 const Skills = () => {
   return (
@@ -14,7 +15,7 @@ const Skills = () => {
                 data-aos="flip-left"
                 data-aos-duration="1000"
                 key={data.title}>
-                    <img src={`/assets/${data.imageSrc}`} alt="internet" />
+                    <img src={`${data.imageSrc}`} alt="internet" />
                     <h3>{data.title}</h3>
                 </div>
             
