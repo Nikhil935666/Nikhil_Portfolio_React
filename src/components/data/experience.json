@@ -1,16 +1,16 @@
 [
   {
     "id": 1,
-    "role": "Senior Software Development Engineer SDE - II",
-    "organisation": "Google",
-    "startDate": "Sept, 2023",
-    "endDate": "Present",
-    "location": "CA,United State",
+    "role": "Senior Software Develooer (Fullstack Developer)",
+    "organisation": "Winners IT",
+    "startDate": "July, 2023",
+    "endDate": "July,2024",
+    "location": "Hadapsar,Pune",
     "experiences": [
       "Worked on Google Gmail",
       "Worked with the Google Bard Team"
     ],
-    "imageSrc": "company/google.png"
+    "imageSrc": "https://img.cdnx.in/43183/cat/1692606899945_44896_cat.png?height=200&format=webp"
   },
   {
     "id": 2,
